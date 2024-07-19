@@ -4,3 +4,5 @@ Update PasswordAuthentication yes
 sudo vim /etc/ssh/sshd_config - uncomment this - #PasswordAuthentication yes
 Restart SSH -> sudo systemctl restart ssh
 Set password for it - sudo passwd ubuntu
+
+ssh-copy-id ubuntu@ip-add
